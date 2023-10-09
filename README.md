@@ -1,4 +1,4 @@
-# ${1:Haanh_Le_Portfolio_FIP}
+# Haanh_Le_Portfolio_FIP
 The goal of this project is to develop a user-friendly and aesthetically pleasing web portfolio that successfully highlights my abilities, projects, and experiences. This website will work as my online portfolio, a place where I can showcase my skills, and a way to find new job prospects in the industry I've chosen.
 
 ## Installation
