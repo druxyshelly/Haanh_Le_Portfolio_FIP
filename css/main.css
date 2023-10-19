@@ -1,54 +1,8 @@
-/* 
-    CSS Guide 
-
-    1.  General Styles (Normalize)
-
- */
-
-
- /* 1. ---General Styles--- */
-
- body {
-    margin: 0px;
-    padding: 0px;
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/static/Montserrat-Bold.ttf") format("opentype");
 }
-
-img, embed, object, video, picture {
-    max-width: 100%;
-}
-
-p, h1, h2, h3, h4, h5 {
-    margin: 0px;
-    padding: 0px;
-}
-
-a {
-    text-decoration: none;
-    transition: all .5s ease-in-out;
-}
-
-input, textarea {
-    display: block;
-    margin: 0px;
-    padding: 0px;
-}
-
-section h2, section h3, section p {
-    padding-left: 15px;
-}
-
-.spacer {
-    margin-top: 60px;
-}
-
-.txt-spacer {
-    margin-top: 30px;
-}
-.col-span-4 {
-    height: 500px;
-}
-
-.col-span-2{
-    height: 150px;
-}
- /* ---End of General Styles--- */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/static/Montserrat-Regular.ttf") format("opentype");
+}/*# sourceMappingURL=main.css.map */
