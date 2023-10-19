@@ -5,4 +5,54 @@
 @font-face {
   font-family: "Montserrat-Regular";
   src: url("../fonts/static/Montserrat-Regular.ttf") format("opentype");
+}
+#hamburger-menu {
+  visibility: hidden;
+  background-color: #171717;
+  background-image: linear-gradient(#000000, #1c1b1b);
+  color: white;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#hamburger-menu ul li {
+  list-style: none;
+  line-height: 4em;
+  font-size: 20px;
+}
+
+#hamburger-menu ul li:hover {
+  cursor: pointer;
+}
+
+#hamburger-open, #hamburger-close {
+  font-size: 30px;
+}
+
+#hamburger-open:hover, #hamburger-close:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+.main-nav {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "";
+}
+
+.main-nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.main-nav ul li:last-of-type {
+  margin-right: 0;
 }/*# sourceMappingURL=main.css.map */

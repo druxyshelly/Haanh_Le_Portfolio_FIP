@@ -152,10 +152,7 @@ html {
 
 }
 
-#pr, #pro  {
-    height: 150px;
-    
-}
+
 
 .col-span-2{
     height: 250px;
@@ -369,9 +366,7 @@ html {
     .desktop {
       display: none;
     }
-  #img {
-    display: none;
-  }
+ 
   }
   /*Height for tablet grid*/
 .col-span-4 {
@@ -379,10 +374,7 @@ html {
 
 }
 
-#pr-t, #pro-t  {
-    height: 150px;
-    
-}
+
 
 .col-span-2{
     height: 250px;
@@ -593,9 +585,7 @@ html {
     .desktop {
       display: block;
     }
-    #img {
-      display: block;
-    }
+   
   }
 
   /*Height for desktop grid*/

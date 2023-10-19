@@ -13,8 +13,8 @@ Owners of websites should maintain website security, track the contact form, and
 3. Commit your changes: `git commit -am 'Updating the XD file'`
 4. Push to the branch: `git push origin my-des-xd-file`
 5. Submit a pull request :D
-## History
-Write history
+## History Apps I Used
+Adobe Illustrator, XD file, Photoshop, After Effects
 ## Credits
 This project was created by Ha Anh Le "Hari".
 ## License
