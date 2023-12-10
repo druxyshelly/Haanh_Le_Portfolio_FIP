@@ -1,0 +1,61 @@
+@use '../abstracts/variables' as a;
+.wel {
+    font-size: 80px;
+    font-family: "Montserrat";
+}
+.p-title{
+    font-family:"Montserrat" ;
+    font-size: 18px;
+}
+.fa-chevron-down {
+    color: a.$secondary-color;
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    
+    
+}
+.fa-regular{
+    color: a.$secondary-color;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+} 
+.close{
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    color: a.$secondary-color;
+    font-size: 50px;
+}
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-txt{
+    display: flex;
+    align-items: center;
+}
+.fa-toolbox{
+    color: a.$secondary-color;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.bg{
+   
+    background: url('../img/project-bg.gif') center center fixed;
+    background-size: cover;
+}
+.p-title{
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+    .p-title{
+        font-family:"Montserrat-SemiBold" ;
+        font-size: 30px;
+    }
+}

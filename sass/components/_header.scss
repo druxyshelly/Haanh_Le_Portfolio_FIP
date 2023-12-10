@@ -1,49 +1,105 @@
+@use '../abstracts/variables' as a;
+
+
+header{
+    margin-top: 100px;
+    background-color: a.$primary-color;
+  
+}
+
+header .logo {
+    width: 100%;
+    
+}
+
+.sticky-header {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 #hamburger-menu {
     visibility: hidden;
-    background-color: #171717;
-    background-image: linear-gradient(#000000, #1c1b1b);
-    color: white;
+    background-color: #fff;
+    background-image: linear-gradient(a.$accent-color,a.$primary-color);
+    color: a.$secondary-color;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     overflow-y: scroll;
     overflow-x: hidden;
-}
+    
 
-#hamburger-menu ul li {
+    & ul li{
     list-style: none;
     line-height: 4em;
     font-size: 20px;
+
+    
+  
+
+    }
+    & ul li:hover{
+        cursor: pointer;
+        
+    }
 }
 
-#hamburger-menu ul li:hover {
-    cursor: pointer;
-}
 
 #hamburger-open, #hamburger-close {
     font-size: 30px;
+    margin-top: 20px;
+    color: a.$secondary-color;
+    &:hover{
+        cursor: pointer;
+    color: a.$secondary-color;
+    }
 }
 
-#hamburger-open:hover, #hamburger-close:hover {
-    cursor: pointer;
-    color: #000000;
+.s-logo{
+    width: 300px;
 }
 .main-nav {
     margin-top: auto;
     margin-bottom: auto;
-    font-family: '';
-}
-
-.main-nav ul li {
+    font-family: 'Montserrat-SemiBold';
+    & ul li{
     list-style-type: none;
     display: inline;
     margin-right: 50px;
-    font-size: 20px;
+    font-size: 25px;
+    color: a.$body-text-color;
+
+    }
+    & ul li:last-of-type{
+        margin-right: 0;
+    }
+    & ul li:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    
+    }
+}
+.side-socials ul li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 28px;
+    & ul li:hover{
+        color: a.$secondary-color;
+        
+    }
+    & ul li:last-of-type{
+        margin-right: 0;
+    }
 }
 
-.main-nav ul li:last-of-type {
-    margin-right: 0;
-}
+
+
+
+

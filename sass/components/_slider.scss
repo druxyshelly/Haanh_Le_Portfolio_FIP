@@ -1,0 +1,64 @@
+@use '../abstracts/variables' as a;
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.slider {
+	height: 300px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: 80%;
+    margin-top: 50px;
+}
+.slide-track {
+	-webkit-animation: scroll 30s linear infinite;
+	animation: scroll 30s linear infinite;
+	display: flex;
+	width: calc(250px * 14);
+    margin-right: -200px;
+}
+
+.slider .slide {
+	height: 500px;
+	width: 100%;
+    
+}
+
+.slider .slide img {
+    
+	height: 300px;
+	border-radius: 10px;
+	
+}
+.slider .slide-track:hover {
+	animation-play-state: paused;
+}
+
+.slider:hover .slide-track {
+	animation-play-state: paused;
+}
+
+.slider .slide:last-child {
+    animation: none; /* Disable animation on the cloned slide */
+}
+@-webkit-keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}

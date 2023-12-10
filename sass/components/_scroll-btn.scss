@@ -1,0 +1,24 @@
+
+@use '../abstracts/variables' as a;
+
+#scroll-btn {
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    color: a.$secondary-color;
+    background-color: a.$primary-color;
+    position: fixed;
+    bottom: 3%;
+    right: 8%;
+    border: 2px solid a.$secondary-color;
+    border-radius: 50%;
+    font: bold 20px ubuntu;
+    transition: opacity 0.5s, transform 0.5s;
+    cursor: pointer;
+    z-index: 15;
+  }
+
+  #scroll-btn.show {
+    opacity: 2;
+    transition: opacity 1s, transform 1s;
+  }

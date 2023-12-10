@@ -5,78 +5,245 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon-16x16.png" type="image/png">
     <title>About | Ha Anh Le Portfolio</title>
 </head>
 <body>
     <h1 class="hidden">Responsive Grid</h1>
 
-        <section class="spacer">
-            <header class="grid-con">
-                <div class="col-span-1 m-col-span-2 l-col-span-2 xl-col-span-4 box">
-                    Logo
+        <section class="">
+            <header class="grid-con sticky-header">
+                <nav id="hamburger-menu" class="grid-con">
+                    <div class="col-start-4 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13 box-right">
+                        <i id="hamburger-close" class="fa-solid fa-x"></i>
+                    </div>
+        
+                    <div class="col-span-4 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9 xl-col-start-5 xl-col-end-9 box-center">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                        <div class="side-socials">
+                            <ul>
+                                <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                        </ul>
+                        </div>
+                        <a href="index.html"><img class="s-logo" src="./img/haanh-logo-design.svg" alt="ha logo"></a>
+                    </div>
+                </nav>
+
+                <div class="col-start-1 col-end-4 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-5 box-left">
+                    <h3 class="hidden">Logo</h3>
+                    <a href="index.html"><img class="logo" src="./img/haanh-logo-design.svg" alt="ha logo"></a>
                 </div>
-                <div class="col-span-2 m-col-span-8 l-col-span-8 xl-col-span-4 box">
-                </div>
-                <div class="col-span-1 m-col-span-2 l-col-span-2 xl-col-span-4 box">
-                    Nav
-                </div>
+
+                <nav class="mobile col-start-4 box-ham">
+                    <h3 class="hidden">Mobile Nav</h3>
+                    <i id="hamburger-open" class="fa-solid fa-bars"></i>
+                </nav>
+        
+                <nav class="tablet m-col-start-6 m-col-end-12 box-right main-nav">
+                    <h3 class="hidden">Tablet Nav</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        
+                    </ul>
+                </nav>
+        
+                <nav class="desktop l-col-start-7 l-col-end-12 xl-col-start-7 xl-col-end-12 box-right main-nav">
+                    <h3 class="hidden">Desktop Nav</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                       
+                    </ul>
+                </nav>
+             
                  
             </header>
 
             <section class="grid-con">
-                <h2 class="hidden">Hero Image</h2>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-12 box">
-                    <p>Img</p>
+                <h2 class="hidden">Introduction</h2>
+                <div id="particles-js"></div>
+                <div class="col-span-full  m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6 box-center hari-landing">
+                    <img class="myself" src="./img/abt.JPG" alt="me">
+                    
                 </div>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-12 box">
-                    <p>Biography</p>
+
+                <div class="col-span-full m-col-start-6 m-col-end-12 l-col-start-6 l-col-end-12 xl-col-start-6 xl-col-end-12 box-left">
+                        <h2 class="abt">Who Am I?
+                            <br>A Motion Designer and Front-end Developer
+                        </h2>
+                        <p class="me">
+                        Versatile creative professional skilled in merging motion design and front-end development. 
+                        With a keen eye for aesthetics and strong coding expertise, I enhance digital experiences with dynamic animations. 
+                        As a motion designer and front-end developer, I deliver innovative and visually striking solutions.</p>
+                        
+                              
+                       
                 </div>
+                <div id="Download" class="col-span-full m-col-start-6 m-col-end-10 l-col-start-6 l-col-end-9 xl-col-start-3 xl-col-end-11 box-center">
+                    <a href="#" class="button-style">Download CV</a>
+                    
+                </div> 
+                <div class="desktop  l-col-span-full  box-center">
+                <i class="fa-solid fa-chevron-down"></i></div>
             </section>
 
-       
-
-           
+            
+                
  
             <section class="grid-con">
                 <h2 class="hidden">Service Desc</h2>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>in4 1</p></div>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>in4 2</p></div>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>in4 3</p></div>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>in4 4</p></div>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>skillset </p></div>
-                <div class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>toolbox</p></div>
-             
+                <div class="col-span-4 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 spacer box-center">
+                    <h2>My Experience</h2>
+                </div>
+                <div class="col-span-2  m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-5 xl-col-end-9 box-left">
+                    <p>Mar 2023 -  April 2023</p>
+                    <h2 class="abt">Front-end Developer</h2>
+                    <p>Paper Bride - Fanshawe College</p>
+                </div>
+                <div class="col-span-2  m-col-start-7 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-5 xl-col-end-9 box-right">
+                    <p>Jul 2023 -  Aug 2023</p>
+                    <h2 class="abt">Motion Designer</h2>
+                    <p>Earbuds - Fanshawe College</p>
+                </div>
+                <div class="col-span-2  m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-5 xl-col-end-9 box-left">
+                    <p>Jan 2023 -  Feb 2023</p>
+                    <h2 class="abt">Front-end Developer</h2>
+                    <p>Alice in Borderland - Fanshawe College</p>
+                </div>
+                <div class="col-span-2  m-col-start-7 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-5 xl-col-end-9 box-right">
+                    <p>Sept 2023 -  Sept 2023</p>
+                    <h2 class="abt">Motion Designer</h2>
+                    <p>Bootcamp - Fanshawe College</p>
+                </div>
+                <div class="col-span-2  m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-5 xl-col-end-9 box-left">
+                    
+                    <h2 class="abt">SKILLSET</h2>
+                    <p>Brand Design<br>
+                        3D Modelling<br>
+                        Video Production<br>
+                        Data Visualization<br>
+                        User Experience Research
+                    </p>
+                </div>
+                <div class="col-span-2  m-col-start-7 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-5 xl-col-end-9 box-right">
+                    
+                    <h2 class="abt">TOOLBOX</h2>
+                    <p>Cinema 4D<br>
+                        CSS/HTML/JS<br>
+                        InDesign, Lightroom<br>
+                        After Effects, Premiere Pro<br>
+                        Adobe XD, Illustrator, Photoshop<br>
+                        </p>
+                </div>
+                
                
             </section>
 
-            <section class="grid-con">
-                <h2 class="hidden">Service Desc</h2>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-3 box">Contact box</div>
+   
+            <section id="contact-box" class="grid-con spacer">
+                <h2 class="hidden">Contact</h2>
+                <article class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-1 xl-col-end-9 txt-spacer contact-box ">
+                <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-3 xl-col-end-8 itinerary-heading box-left">
+                    <h2 class="heading">Let's work together on your next project</h2>
+                    <i class="fa-solid fa-x close"></i>
+                </div>
 
-              
-             
-               
-                
+                <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-2 xl-col-end-12 box-left contact-text">
+                    <p>If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below or send an email to harile1211@gmail.com and ~let's make your dream comes true.</p>
+                      </div>
+                      <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-2 xl-col-end-12 box-left itinerary-text">
+                        <input type="text" class="input-field" placeholder="Name">
+                          </div>
+                          <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-2 xl-col-end-12 box-left itinerary-text">
+                            <input type="text" class="input-field" placeholder="Email">
+                              </div>
+                              <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-8 xl-col-start-2 xl-col-end-12 box-left itinerary-text">
+                                <textarea type="text" class="input-field textarea-field" placeholder="Message"></textarea>
+                                  </div>
+    
+                <div class="col-span-2 m-col-start-4 m-col-end-6 l-col-start-4 l-col-end-6 xl-col-start-3 xl-col-end-11 spacer box-left">
+                    <a href="#" class="button-style">Submit</a>
+                </div>
+            </article>
+                <button id="scroll-btn"><i class="fa-solid fa-plane-up"></i></button>
+                <hr class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 spacer section-divider">
             </section>
 
           
-        <footer id="footer-con" class="grid-con">
+        <footer id="footer-con" class="grid-con ">
             <h2 class="hidden">You made it to the end</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="footer">
-            
-                    <article id="footer-nav" class="box-color">
-                        <h2 class="hidden">Main Navigation</h2>
-                        <p>Footer</p>
-                      
-                        
-                    </article>
+        
+            <div class="mobile col-span-full box-center">
+                <h3 class="hidden">Logo</h3>
+                <img class="logo" src="./img/haanh-logo-design.svg" alt="hari logo"><br>
+                
+                
             </div>
+
+            <div class="tablet m-col-start-2 m-col-end-5 box-left">
+                <h3 class="hidden">Logo</h3>
+                <img class="logo" src="./img/haanh-logo-design.svg" alt="hari logo"><br>
+                
+                
+            </div>
+
+            <div class="desktop l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-6 box-left">
+                <h3 class="hidden">Logo</h3>
+                <img class="logo" src="./img/haanh-logo-design.svg" alt="hari logo"><br>
+                
+                
+            </div>
+            <div class="col-span-full m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9 xl-col-start-3 xl-col-end-8 box-center">
+                <p>©Ha Anh Le. All Right Reserved</p>
+            </div>
+
+           
+
+            <div class="mobile col-span-full box-center socials">
+                <p class="footer-heading"></p>
+                <ul>
+                    <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="tablet m-col-start-9 m-col-end-12 box-center socials">
+                <p class="footer-heading"></p>
+                <ul>
+                    <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="desktop l-col-start-9 l-col-end-12 xl-col-start-10 xl-col-end-12 box-center socials">
+                <p class="footer-heading"></p>
+                <ul>
+                    <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+
+
+           
+        
         </footer> 
    
 
           
         </section>
+       
         
+        <script src="https://kit.fontawesome.com/0eab0f8aa6.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="js/main.js"></script>
 </body>
 </html>

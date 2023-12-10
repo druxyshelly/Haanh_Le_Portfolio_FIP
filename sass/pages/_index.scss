@@ -1,1 +1,67 @@
 @forward 'about';
+@forward 'project';
+@use '../abstracts/variables' as a;
+
+.name {
+    font-size: 150px;
+    font-family: 'Sunset-Gothic-Pro-Bold';
+    margin-top: 100px;
+    text-shadow: 
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    1px 1px white,
+    2px 2px white,
+    3px 3px white,
+    4px 4px white,
+    5px 5px white,
+    6px 6px white,
+    1px 1px gray,
+    2px 2px gray,
+    3px 3px gray,
+    4px 4px gray,
+    5px 5px gray,
+    6px 6px gray;
+   
+}
+
+.title {
+    font-size: 30px;
+    font-family: "Montserrat-Bold";
+    margin-bottom: 180px;
+    margin-top: 0px;
+    position: relative;
+
+    
+}
+
+
+@media screen and (max-width: 1199px) {
+    .name {
+        font-size: 100px;
+    margin-top: 100px;
+    }
+    .title{
+        font: 70px;
+    margin-bottom: 180px;
+    margin-top: 0px;
+    }
+
+   
+}
+
+@media screen and (max-width: 767px) {
+    .name{
+        font-size: 70px;
+    margin-top: 100px;
+    }
+    .title{
+        font-size: 20px;
+    margin-bottom: 180px;
+    margin-top: 0px;
+  
+    }
+}
