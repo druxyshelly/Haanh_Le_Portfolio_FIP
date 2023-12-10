@@ -1,0 +1,50 @@
+@use '../abstracts/variables';
+
+
+footer {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    & ul li{
+        list-style-type: none;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #fff;
+    
+    }
+    & ul li:hover{
+        color: #fff;
+    }
+    & ul li:last-of-type{
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+.socials ul li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 35px;
+    
+    & ul li:hover{
+        color: #fff;
+    }
+    & ul li:last-of-type{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .socials ul li {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .socials ul li {
+        font-size: 20px;
+    }
+}  
+

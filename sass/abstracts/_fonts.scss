@@ -1,9 +1,22 @@
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url("../fonts/static/Montserrat-Bold.ttf") format("opentype");
+
+ @font-face {
+     font-family: 'Sunset-Gothic-Pro-Bold';
+     src: url('../fonts/Sunset-Gothic-Pro-Bold.woff') format("woff");
 }
 
-@font-face {
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  }
+  @font-face {
     font-family: 'Montserrat-Regular';
-    src: url("../fonts/static/Montserrat-Regular.ttf") format("opentype");
-}
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+  }
+
+
+
+

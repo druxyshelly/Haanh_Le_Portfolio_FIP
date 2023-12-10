@@ -1,0 +1,46 @@
+@use '../abstracts/variables' as a;
+
+
+
+.button-style{
+    color: a.$body-text-color;
+    border: 3px solid a.$secondary-color;
+    border-radius: 5px;
+    text-align: center;
+    padding: 16px 32px;
+    padding-top: 10px;
+    font-size: 18px;
+    width: 165px;
+    font-family: a.$body-font-family;
+
+    &:hover{
+    
+    background-color: a.$secondary-color;
+    color: a.$primary-color;
+    cursor: pointer;
+ 
+
+    }
+}
+
+
+#Download {
+    margin-top: -3.8rem;
+    margin-left: -1.3rem;
+    position: relative;
+}
+@media screen and (max-width: 1199px) {
+    #Download {
+        margin-top: -1.8rem;
+        margin-left: -2.5rem;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #Download {
+        margin-top: -1.8rem;
+        margin-left: -1.3rem;
+        position: relative;
+    }
+}  

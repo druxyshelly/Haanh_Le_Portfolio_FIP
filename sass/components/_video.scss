@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as a;
+:root {
+    --plyr-color-main:rgb(182, 88, 77);
+    --plyr-control-icon-size: 15px;
+    --plyr-control-radius: 20px;
+    --plyr-font-family: a.$heading-font-family;
+    --plyr-controls-spacing: 15px;
+  }

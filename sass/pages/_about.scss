@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as a;
+@media screen and (max-width: 1199px) {
+    .abt {
+        font-size: 20px;
+
+    }
+    .me{
+        font-size: 12px;
+   
+ 
+    }
+    .heading{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+
+}
+.myself{
+    position: relative;
+}
+.abt{
+    position: relative;
+}
+

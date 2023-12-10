@@ -5,77 +5,314 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon-16x16.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <title>Project | Ha Anh Le Portfolio</title>
 </head>
 <body>
     <h1 class="hidden">Responsive Grid</h1>
 
-        <section class="spacer">
-            <header class="grid-con">
-                <div class="col-span-1 m-col-span-2 l-col-span-2 xl-col-span-4 box">
-                    Logo
+        <section class="">
+            <header class="grid-con sticky-header">
+                <nav id="hamburger-menu" class="grid-con">
+                    <div class="col-start-4 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13 box-right">
+                        <i id="hamburger-close" class="fa-solid fa-x"></i>
+                    </div>
+        
+                    <div class="col-span-4 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9 xl-col-start-5 xl-col-end-9 box-center">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                        <div class="side-socials">
+                            <ul>
+                                <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                        </ul>
+                        </div>
+                        <a href="index.html"><img class="s-logo" src="./img/haanh-logo-design.svg" alt="ha logo"></a>
+                    </div>
+                </nav>
+
+                <div class="col-start-1 col-end-4 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-5 box-left">
+                    <h3 class="hidden">Logo</h3>
+                    <a href="index.html"><img class="logo" src="./img/haanh-logo-design.svg" alt="ha logo"></a>
                 </div>
-                <div class="col-span-2 m-col-span-8 l-col-span-8 xl-col-span-4 box">
-                </div>
-                <div class="col-span-1 m-col-span-2 l-col-span-2 xl-col-span-4 box">
-                    Nav
-                </div>
+
+                <nav class="mobile col-start-4 box-ham">
+                    <h3 class="hidden">Mobile Nav</h3>
+                    <i id="hamburger-open" class="fa-solid fa-bars"></i>
+                </nav>
+        
+                <nav class="tablet m-col-start-6 m-col-end-12 box-right main-nav">
+                    <h3 class="hidden">Tablet Nav</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        
+                    </ul>
+                </nav>
+        
+                <nav class="desktop l-col-start-7 l-col-end-12 xl-col-start-7 xl-col-end-12 box-right main-nav">
+                    <h3 class="hidden">Desktop Nav</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                       
+                    </ul>
+                </nav>
+             
                  
             </header>
 
-            <section class="grid-con">
-                <h2 class="hidden">Hero Image</h2>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                    <p>Project Video</p>
+            <section class="grid-con bg">
+                <h2 class="hidden">Introduction</h2>
+                <div class="mobile col-span-full box-center spacer hari-landing">
+                    <h1 class="p-name">WELCOME TO MY PROJECT</h1>
+                    <p class="p-title">PAPER BRIDE</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="tablet m-col-span-full box-center spacer hari-landing">
+                    <h1 class="p-name">WELCOME TO MY PROJECT</h1>
+                    <p class="p-title">PAPER BRIDE</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="desktop l-col-span-full xl-col-span-full box-center spacer hari-landing">
+                    <h1 class="col-span-full m-col-span-full l-col-span-full xl-col-span-full box-center wel ">WELCOME TO MY PROJECT</h1>
+                    <h2 class="p-title">PAPER BRIDE</h2>
+                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
             </section>
+
+            <section class="grid-con">
+               
+                    
+                        <h2 class="col-span-full m-col-span-full l-col-start-4 l-col-end-10 xl-col-span-full spacer box-center">ABOUT THIS PROJECT</h2><br>
+                        <p class="col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-span-full txt-spacer box-center">I had the distinct privilege of taking the helm on a project that has since become a standout in my portfolio. What makes it particularly special is the harmonious convergence of design and coding, two aspects of the development process that I find both stimulating and rewarding. The endeavor not only met but exceeded my initial expectations, establishing itself as a testament to meticulous planning, creativity, and technical finesse.
+
+                            <br>Throughout the project lifecycle, I found myself immersed in a delightful intersection of aesthetics and functionality, an experience that has left an indelible mark on my professional journey. The successful outcome, rich with innovative design and seamless coding, has become a source of genuine pride. I am compelled to share the project's narrative, as it not only underscores my proficiency in the field but also serves as an enduring source of inspiration for future endeavors.
+                        </p>
+                        
+                 
+                    
+                        <div class="icon-text-container col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-span-full spacer box-center">
+                        <i class="fa-solid fa-toolbox"></i>
+                        <h2>WHAT I USED</h2><br>
+                        </div>
+                        <p class="col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-span-full txt-spacer box-center">
+                            Leveraging the trifecta of HTML, CSS, and Photoshop, I embark on projects armed with a powerful toolkit to bring creative visions to life. 
+                            HTML forms the structural backbone, providing the framework that lays the groundwork for seamless user experiences. CSS, with its styling prowess, steps in to refine and elevate the visual aesthetics, ensuring an engaging and polished presentation.
+                             Meanwhile, Photoshop emerges as the artistic canvas, enabling the infusion of vibrant design elements, captivating imagery, and pixel-perfect precision. 
+                             By seamlessly integrating these tools, I navigate the intricate dance between code and design, transforming conceptual ideas into tangible, visually compelling digital realities. 
+                             Each element plays a distinct role, harmonizing in a symphony of creativity and technical finesse, culminating in a project that not only meets but exceeds expectations.</p>
+                        
+                        
+                    
+                    <article class="col-span-full m-col-span-full l-col-span-full xl-col-span-full spacer box-center">
+                        <div class="icon-text-container">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                            <h2 class="i-txt">WHAT I MADE</h2>
+                        </div>
+                    </article>
+                    <article class="col-span-full m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-span-full box-center">
+                        <img class="" src="./img/season_two_three_sprite.png" alt="project">
+                    </article>
+                    <article class="col-span-full m-col-start-7 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-span-full box-center">
+                        <img class="" src="./img/paper_bride_header.jpg" alt="project">
+                    </article>
+                    <article class="col-span-full m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-span-full box-center">
+                        <img class="" src="./img/season_one_sprite.jpg" alt="project">
+                    </article>
+                    <article class="col-span-full m-col-start-7 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-span-full box-center">
+                        <img class="" src="./img/paper_bride_redflower_tone.png" alt="project">
+                    </article>
+                    <article class="col-span-full m-col-span-full l-col-span-full xl-col-span-full box-center">
+                        <img class="" src="./img/sequel.png" alt="project">
+                    </article>
+                    
+                    <hr class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 spacer section-divider">
+                        
+                        
+                    
+                
+            </section><br>
 
            
  
             <section class="grid-con">
-                <h2 class="hidden">Service Desc</h2>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-3 box"><p>Paragraph</p></div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>img 1</p></div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>img 2</p></div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>img 3</p></div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box"><p>img 4</p></div>
+                
+                
+                <div class="col-span-4 m-col-start-2 m-col-end-9 l-col-start-2 l-col-end-9 xl-col-start-2 xl-col-end-12 box-left loader-text">
+                    <h2>See More Than<br>Your Eye Does</h2><br>
+                        <p>
+                            As someone who values aesthetics, I prioritize the visual aspect in my projects. 
+                            Recognizing its role in capturing attention, I ensure meticulous attention to detail. 
+                            However, true beauty goes beyond the visual. To fully appreciate it, engaging all senses is crucial—not just the eyes.</p>
+        
+                </div>
+                <div class="col-span-full  m-col-start-9 m-col-end-12 l-col-start-9 l-col-end-12 xl-col-start-5 xl-col-end-9 txt-spacer box-center box gallery">
+                    <div class="wrapper"><div class="front-box"><img  src="./img/paper-br.jpg" alt="project"></div>
+                    <div class="back-box"><img  src="./img/back.jpg" alt="project"></div>
+                    </div>
+                    
+                </div>
+                <div class="col-span-full m-col-start-2 m-col-end-5 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-12 box-center gallery">
+                    <div class="wrapper">
+                        <div class="swiper Slider-container">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="img/1.jpg" alt="Slide Image" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/2.jpg" alt="Slide Image" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/3.jpg" alt="Slide Image" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/4.jpg" alt="Slide Image" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/5.jpg" alt="Slide Image" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/6.jpg" alt="Slide Image" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/7.jpg" alt="Slide Image" />
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                </div>
+                <div class="col-span-full  m-col-start-5 m-col-end-12 l-col-start-5 l-col-end-12 xl-col-start-5 xl-col-end-9 box-right loader-text">
+                    <h2>Finding The Solution <br>Is Not That Hard</h2><br>
+                        <p>Deriving a solution becomes a straightforward task when one comprehends the needs and objectives of their customers. 
+                            By prioritizing essential elements and employing creative thinking, the process of conceptualizing innovative solutions becomes both accessible and effective.</p>
+                </div>
+
+                <hr class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 spacer section-divider">
+                <article class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-7 xl-col-span-full box-left">
+                    <h2>YOU MAY ALSO LIKE <br>THOSE PROJECTS</h2>
+                </article>
+                <div class="col-span-full m-col-span-full l-col-span-full wrapper">
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                                <img src="./img/alice.PNG" alt="alice"/>
+                        
+                            </div>
+                            
+                            <div class="slide">
+                                <img src="./img/bootcamp.PNG" alt="bootcamp"/>
+                   
+                            </div>
+                            
+                            <div class="slide">
+                                <img src="./img/earbuds.png" alt="earbuds" />
+                
+                            </div>
+                            
+                            <div class="slide">
+                                <img src="./img/paperbride.PNG" alt="paperbride" />
+                        
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+              
              
                
             </section>
 
-            <section class="grid-con">
-                <h2 class="hidden">Service Desc</h2>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box">Texts</div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box">img 5</div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box">img 6</div>
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-3 box">Texts</div>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-3 box">carousel</div>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-3 box">noti box</div>
+   
+            <section id="contact-box" class="grid-con spacer">
+                <article class="col-span-full m-col-start-2 m-col-end-12 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10 txt-spacer contact-box ">
+                <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-3 xl-col-end-8 box-left">
+                    <h2 class="heading">Wanna Build Something Even Crazier Than This?</h2>
+                    <i class="fa-solid fa-x close"></i>
+                </div>
 
-              
-             
-               
-                
+                <div class="col-span-full m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-2 xl-col-end-12 box-left contact-text">
+                    <p>Then take me out and we can do something that out of your mind. Hahaha you don't believe me? Try to contact me and we will know &#128150;</p>
+                </div>
+                </article>
+                <button id="scroll-btn"><i class="fa-solid fa-plane-up"></i></button>
+                <hr class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 spacer section-divider">
             </section>
 
           
         <footer id="footer-con" class="grid-con">
             <h2 class="hidden">You made it to the end</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="footer">
-            
-                    <article id="footer-nav" class="box-color">
-                        <h2 class="hidden">Main Navigation</h2>
-                        <p>Footer</p>
-                      
-                        
-                    </article>
+        
+            <div class="mobile col-span-full box-center">
+                <h3 class="hidden">Logo</h3>
+                <img class="logo" src="./img/haanh-logo-design.svg" alt="hari logo"><br>
+                
+                
             </div>
+
+            <div class="tablet m-col-start-2 m-col-end-5 box-left">
+                <h3 class="hidden">Logo</h3>
+                <img class="logo" src="./img/haanh-logo-design.svg" alt="hari logo"><br>
+                
+                
+            </div>
+
+            <div class="desktop l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-6 box-left">
+                <h3 class="hidden">Logo</h3>
+                <img class="logo" src="./img/haanh-logo-design.svg" alt="hari logo"><br>
+                
+                
+            </div>
+            <div class="col-span-full m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9 xl-col-start-3 xl-col-end-8 itinerary-heading box-center">
+                <p>©Ha Anh Le. All Right Reserved</p>
+            </div>
+
+           
+
+            <div class="mobile col-span-full box-center socials">
+                <p class="footer-heading"></p>
+                <ul>
+                    <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="tablet m-col-start-9 m-col-end-12 box-center socials">
+                <p class="footer-heading"></p>
+                <ul>
+                    <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="desktop l-col-start-9 l-col-end-12 xl-col-start-10 xl-col-end-12 box-center socials">
+                <p class="footer-heading"></p>
+                <ul>
+                    <li><a href="https://github.com/druxyshelly"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://pin.it/3ccepH7"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+
+           
+        
         </footer> 
    
 
           
         </section>
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/0eab0f8aa6.js" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </body>
 </html>
